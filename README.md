@@ -1,2 +1,2 @@
-# GBM-und-XG
+# Seminararbeit zu GBM und XGBoost
 GBM
