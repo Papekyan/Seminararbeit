@@ -34,7 +34,7 @@ print(df.nunique())
 """## 2. Datenaufbereitung"""
 
 #Alter in Jahre umrechnen
-df['age_years'] = df ['age']/365
+df['age'] = df ['age']/365
 
 #BMI und nicht benötigte Spalten entfernen
 df['male'] = df['gender'].apply(lambda x: 1 if x == 1 else 0)
