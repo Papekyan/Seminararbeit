@@ -11,7 +11,7 @@ Lasso Regression
 
 
 Hyperparameter-Tuning: Für beide Modelle wird eine Optimierung der Parameter durchgeführt.
-Evaluation: Die Modelle werden mit Metriken wie Recall, Precision, Accuaracy und einer Konfusionsmatrix bewertet.
+Evaluation: Die Modelle werden mit Metriken wie Recall, Precision, Accuracy und einer Konfusionsmatrix bewertet.
 
 
 
