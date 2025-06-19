@@ -148,8 +148,7 @@ print(round(precision_tuned_xgb,2))
 explainer = shap.Explainer(XGB_tuned, X_train)  # X_train is your feature set
 shap_values = explainer(X_train)
 
-# Erstellt einen SHAP Summary Plot. Die Farbe der Punkte wird durch die 'viridis'-Farbpalette bestimmt,
-# die den Wert des jeweiligen Merkmals darstellt.
+# Erstellt einen SHAP Summary Plot
 
 shap.summary_plot(shap_values, X_train, cmap=plt.get_cmap("crest"))
 
